@@ -1,0 +1,88 @@
+.containerInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.blockInfo {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: calc(30% - 40px); /* Подгоняем ширину блоков */
+    text-align: center;
+    color: #000;
+}
+
+.blockInfo i {
+    font-size: 50px;
+}
+
+.titleInfo {
+    margin-top: 10px;
+}
+
+.InfoBlock {
+    color: #555;
+}
+
+.hero{
+padding-bottom: 100px;
+margin-left: 220px;
+
+}
+
+.hero2{
+padding-bottom: 100px;
+margin-right: 100px;
+text-align: left;
+flex-basis: 45%;
+
+}
+
+.hero-Info{
+width: 530px;
+}
+.hero-Info2{
+width: 530px;
+margin-left: 900px;
+}
+.wrapper-Hero {
+background: -webkit-linear-gradient(180deg, rgb(22, 37, 54) 30%, rgb(14, 24, 35) 100%);
+background: -moz-linear-gradient(180deg, rgb(22, 37, 54) 30%, rgb(14, 24, 35) 100%);
+background: linear-gradient(180deg, rgb(22, 37, 54) 30%, rgb(14, 24, 35) 100%);
+
+}
+
+.InfoBtn {
+display: inline-block;
+background-color: var(--first-color);
+padding: .75rem 1.5rem;
+border-radius: 1.5rem;
+color: var(--dark-color);
+font-weight: 600;
+margin-top: 20px;
+}
+
+.hero-Info a:hover{
+color: white;
+}
+
+.hero-Info2 a:hover{
+color: white;
+}
+
+.hero img{
+position: absolute;
+top: 650px;
+right: 0;
+}
+
+.hero2 img{
+position: absolute;
+top: 1300px;
+right: 750px;
+}

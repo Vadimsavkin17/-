@@ -1,0 +1,380 @@
+ body {
+ 	font-family: 'Poppins', sans-serif;
+ 	overflow-x: hidden;   
+}
+
+.calculator {
+	margin-left: 70px;
+	margin-right: 70px;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 30px;
+	height: auto;
+}
+
+.calculator h1 {
+/*	font-size: 50px;
+	padding: 5px;*/
+	align-items: center;
+}
+
+.circle {
+	width: 450px;
+	height: 450px;
+	background-color: #F6AE31;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 100px;
+	margin-right: 60px;
+	color: #162536;
+	font-size: 24px;
+	text-align: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.circle h1{
+	margin-top: 190px;
+	font-size: 80px;
+	margin-left: 280px;
+	color: #162536;
+	font-family: "JetBrains Mono";
+	font-weight: 800;
+}
+
+.circle h4{
+	font-size: 40px;
+	margin-left: 150px;
+	margin-top: 190px;
+	color: #162536;
+	font-family: "JetBrains Mono";
+	font-weight: 400;
+	width: 720px;
+	text-align: left;
+}
+
+.circle h3{
+	font-family: "JetBrains Mono";
+	font-weight: 500;
+	font-size: 55px;
+	margin-left: 320px;
+	width: 600px;
+}
+
+.star1 {
+	font-size: 350px;
+	color: #F6AE31;
+	position: absolute;
+	top: 150px;
+	right: 150px;
+}
+
+.star2 {
+	font-size: 100px;
+	color: #F6AE31;
+	position: absolute;
+	top: 260px;
+	right: 480px;
+}
+
+.star3 {
+	font-size: 70px;
+	color: #F6AE31;
+	position: absolute;
+	top: 400px;
+	right: 460px;
+}
+
+.star4 {
+	font-size: 60px;
+	color: #F6AE31;
+	position: absolute;
+	top: 500px;
+	right: 260px;
+}
+.student-image {
+	margin-top: 300px;
+	width: 700px;
+	height: auto;
+	border-radius: 10px;
+}
+
+/* НАЧАЛО БЛОК С ВЫБОРОМ ЭКЗАМЕНОВ */
+
+.subject-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.subject-item {
+    text-align: center; /* Центрируем текст внутри блока */
+    margin-bottom: 20px ;
+}
+
+.subject-item label {
+    display: block; /* Это позволит label занимать всю ширину */
+    margin-bottom: 5px; /* Отступ между label и select */
+}
+
+.subject-item select {
+    width: 250px; /* Фиксированная ширина для селекторов */
+}
+select {
+    padding: 10px;
+    border: 3px solid #162536;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    appearance: none; /* Убираем стандартный стиль выбора */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    border-color: #F6AE31; /* Цвет при фокусировке */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+}
+.title1 {
+	position: relative;
+	color: #162536;
+	font-family: "JetBrains Mono";
+	font-weight: 1000;
+	font-size: 50px;
+	margin-right: 650px;
+}
+
+.titleItem1 {
+	font-size: 70px;
+	color: #162536;
+	position: relative;
+	margin-right: 20px;
+}
+
+.subjectChoice {
+	position: relative;
+	margin-right: 670px;:
+}
+
+.book-image {
+	position: relative;
+	border-radius: 10px;
+	height: 400px;
+	width: 400px;
+	right: -50px;
+	top: -40px;
+}
+
+.labelUp{
+	color: #162536;
+}
+
+.headerContainer1 {
+	display: flex;
+	align-items: center;
+	margin-left: 52px;
+	margin-top: 30px;
+}
+
+/* КОНЕЦ БЛОК С ВЫБОРОМ ЭКЗАМЕНОВ */
+
+
+/*НАЧАЛО БЛОК С ВВОДИМЫМИ БАЛЛАМИ*/
+
+.headerContainer2 {
+	display: flex;
+	align-items: center;
+	margin-left: 200px;
+}
+
+.inputArea {
+	position: relative;
+	display: flex;
+	gap: 10px;
+	margin-left: 110px;
+}
+.title2 {
+	position: relative;
+	color: #162536;
+	font-family: "JetBrains Mono";
+	font-weight: 1000;
+	font-size: 50px;
+	margin-left: 20px;
+}
+
+.titleItem2 {
+	font-size: 70px;
+	color: #162536;
+	position: relative;
+}
+
+
+.inputRow{
+	margin-right: 20px;
+}
+
+.inputSubject{
+	width: 280px;
+	padding: 10px;
+	border: 3px solid #162536;
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+	font-size: 16px;
+	box-sizing: border-box;
+	color: #162536;
+}
+
+.inputSubject: focus {
+	border-color: #F6AE31;
+	outline: none;
+}
+
+.bloknot-image {
+	position: relative;
+	height: auto;
+	width: 500px;
+	top: -450px;
+	right: -800px;
+}
+
+/*КОНЕЦ БЛОК С ВВОДИМЫМИ БАЛЛАМИ*/
+
+/*НАЧАЛО БЛОКА С ДОПОЛНИТЕЛЬНЫМИ ФИЛЬТРАМИ*/
+
+.headerContainer3 {
+	display: flex;
+	align-items: center;
+	margin-left: 350px;
+	margin-top: 10px;
+}
+.title3{
+	font-family: "JetBrains Mono";
+	font-weight: 1000;
+	font-size: 50px;
+	color: #162536;
+}
+
+.titleItem3 {
+	font-size: 70px;
+	color: #162536;
+	position: relative;
+	margin-right: 20px;
+}
+
+.inputCost{
+	width: 280px;
+	padding: 10px;
+	border: 3px solid #162536;
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+	font-size: 16px;
+	box-sizing: border-box;
+	position: relative;
+	height: 50px;
+	margin-top: 27px;
+/*	margin-right: 20px;*/
+}
+
+.selectStudy {
+	height: 50px;
+	width: 280px;
+	position: relative;
+}
+
+.study{
+	position: relative;
+}
+
+.visit {
+	position: relative;
+}
+
+.selectVisit {
+	height: 50px;
+	width: 280px;
+	position: relative;
+}
+
+.containerArea1 {
+	position: relative;
+	width: 720px;
+	display: flex;
+}
+
+.containerArea2 {
+	position: relative;
+	width: 200px;
+}
+
+.containerArea3 {
+	width: 720px;
+	margin-left: ;
+	display: flex;
+	margin-left: 400px;
+}
+
+.militaryDep {
+	height: 49px;
+	width: 280px;
+	position: relative;
+}
+
+.mil {
+}
+
+.submit {
+	position: relative;
+	height: 100px;
+	width: 400px;
+	border-radius: 35px;
+	background-color: #162536;
+	color: #FFF;
+	font-size: 40px;
+	font-family: "JetBrains Mono";
+	font-weight: 400;
+	border: 0px;
+	margin-bottom: 40px;
+}
+
+.submit:hover{
+	background-color: #F6AE31;
+	color: #000;
+	height: 90px;
+	width: 390px;
+	transition: 0.3s;
+	font-size: 38px;
+}
+
+.labelArea3 {
+	display: block;
+	width: 345px;
+}
+
+.labelArea2 {
+	display: block;
+	width: 300px;
+	margin-left: 35px;
+}
+
+.labelArea1 {
+	width: 300px;
+	margin-left: 400px;
+}
+/*КОНЕЦ БЛОКА С ДОПОЛНИТЕЛЬНЫМИ ФИЛЬТРАМИ*/;
+
+#result {
+	background-color: #fffff;
+	margin-top: 45px;
+	width: 1343px;
+}

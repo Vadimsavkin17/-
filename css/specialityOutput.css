@@ -1,0 +1,85 @@
+.result {
+    font-weight: bold;
+    background-color: #ffffff;
+    width: auto;
+    margin-bottom: ;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.resultTitle {
+    color: #162536;
+}
+.speciality-container {
+    background-color: white;
+    border: 7px solid black;
+    border-radius: 40px;
+    width: 1400px;
+    height: auto;
+    margin-left: 70px;
+    margin-right: 19px;
+    margin-bottom: 40px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+.speciality-Img {
+    max-width: 360px;
+    border-radius: 30px;
+    height: 260px;
+    max-height: 270px;
+}
+
+.speciality-info {
+    color: #162536;
+    flex-direction: column;
+    width: 100%;
+}
+
+.speciality-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #162536;
+    width: 100%;
+}
+
+.speciality-details {
+    line-height: 1.6; /* Высота строки для удобства чтения */
+    text-align: left;
+    margin-left: 40px;
+}
+
+.appButton {
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+    button{
+        width: 250px;
+        height: 50px;
+        border-radius: 20px;
+        background-color: rgba(42, 156, 41, 0.91);
+        cursor: pointer;
+        font-size: 20px;
+        color: #ffffff;
+        border: none;
+
+        &:hover {
+            background-color: rgba(34,120,34,0.91);
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+.btn-container {
+    display: flex;
+    align-items: center;
+
+    #appBtn{
+        margin-left: 250px;
+        margin-right: 20px;
+    }
+}
+

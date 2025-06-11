@@ -1,0 +1,291 @@
+/*.gradient-custom {
+background: #6a11cb;
+
+background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+
+
+.msg{
+	border:2px solid #6a11cb;
+	border-radius: 3px;
+	padding: 10px;
+}*/
+
+*{
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+:root {
+	--bg-color: #222327;
+	--text-color: #fff;
+	--main-color: #29fd53;
+	--second-color: hsl(195, 75%, 52%);
+	--main-color2: #f6ae31;
+	--body-color: hsl(212, 42%, 15%);
+}
+
+body {
+        background-color: var(--body-color);
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Высота 100% окна браузера */
+        text-decoration: none;
+		list-style: none;
+    }
+
+.title {
+	color: var(--body-color);
+	font-size: 30px;
+}
+
+.form-label {
+	color: var(--body-color);
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.message {
+	font-size: 20px;
+}
+
+input {
+	text-align: center;
+	font-size: 20px;
+	color: var(--body-color);
+}
+.AutintificationsForm {
+        border-radius: 1rem;
+        background-color: var(--main-color2); /* Цвет фона карты */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Тень */
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+        justify-content: center;
+}
+.AutintificationsRegisterForm {
+        border-radius: 1rem;
+        background-color: var(--main-color2); /* Цвет фона карты */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Тень */
+        padding: 20px;
+        margin-top: 200px;
+        text-align: center;
+        justify-content: center;
+}
+.AutintificationsForm a{
+	color: #fff;
+	font-size: 20px;
+}
+
+.AutintificationsForm a:hover{
+	color: var(--body-color);
+	transform: translateY(5px);
+}
+.under {
+	text-align: center;
+	color: var(--main-color2);
+}
+.under a{
+	color: var(--main-color2);
+	padding: 5px 0;
+	margin: 0px 20px;
+}
+.under a:hover{
+	color: var(--text-color);
+	transform: translateY(5px);
+}
+
+.forPsw {
+	color: var(--body-color);
+}
+
+.form-control {
+        width: calc(100% - 20px); /* Увеличиваем ширину текстовых полей */
+        margin: 0 auto; /* Центрируем поля */
+        padding: 10px; /* Добавляем отступ внутри полей */
+        border-radius: 0.5rem; /* Округляем углы полей */
+        text-align: center;
+		font-size: 20px;
+		color: var(--body-color);
+		border-radius: 15px;
+		border: 3px solid black;
+}
+
+.btn {
+        border-radius: 0.5rem; /* Округляем углы кнопки */
+}
+
+.msg {
+        border: 2px solid #6a11cb;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 1rem; /* Добавим отступ сверху для сообщения */
+        background-color: rgba(0, 0, 0, 0.8); /* Полупрозрачный фон для сообщения */
+        color: #ffffff; /* Цвет текста сообщения */
+}
+
+.button {
+  background-color: var(--main-color2);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 200px;
+  font-size: 18px;
+}
+
+.button {
+  background-color: var(--body-color); 
+  border: 2px solid var(--main-color2);
+}
+
+.button:hover {
+  background-color: var(--text-color);
+  color: black;
+}
+
+.buttonEscape {
+   position: absolute; /* Позволяет позиционировать элемент относительно ближайшего родителя с position: relative или относительно окна */
+   top: 20px; /* Расстояние от верхнего края */
+   left: 20px; /* Расстояние от левого края */
+   background-color: var(--main-color2); 
+   border: 2px solid var(--main-color2);
+   color: black;
+   padding: 10px 20px; /* Уменьшено для улучшения внешнего вида */
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   border-radius: 15px;
+   width: auto; /* Ширина изменена на auto */
+}
+
+.buttonEscape:hover {
+   background-color: var(--text-color);
+   color: black;
+   border-color: var(--text-color);
+}
+
+.buttonRegister {
+  background-color: var(--main-color2);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 240px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.buttonRegister {
+  background-color: var(--body-color); 
+  border: 2px solid var(--main-color2);
+}
+
+.buttonRegister:hover {
+  background-color: var(--text-color);
+  color: black;
+}
+
+input:focus {
+    outline: none; /* Убираем контур */
+}
+
+.titleRegister {
+    font-size: 35px;
+    margin: 0px;
+}
+
+.form-label{
+    color: black;
+}
+
+.custom-select {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  margin-left: 140px;
+  margin-bottom: 10px;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+  background-color: var(--text-color);
+}
+
+.select-selected {
+  background-color: var(--body-color);
+  border-radius: 7px;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: var(--body-color);
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  border-radius: 7px;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
